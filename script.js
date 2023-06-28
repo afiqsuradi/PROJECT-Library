@@ -69,7 +69,7 @@ const createBookCard = function (book, id) {
   // Add Book Card Content
   titleEl.textContent = book.title;
   authorEl.textContent = `By ${book.author}`;
-  pagesEl.textContent = book.pages;
+  pagesEl.textContent = `${book.pages} Pages`;
   readBtn.textContent = book.status ? "Mark As Unread" : "Mark As Read";
   deleteBookBtn.textContent = "Delete Book";
 
